@@ -1,0 +1,33 @@
+import java.math.BigInteger;
+public class FirstAsm {
+	int a=10;
+	int b=30;
+	int ans;
+	
+  void add()
+  {
+	  BigInteger b1=new BigInteger(new Integer(a).toString());
+	  BigInteger b2=new BigInteger(new Integer(b).toString());
+	  BigInteger sum=b1.add(b2);
+     System.out.println("Sum is " +sum);
+  }
+
+void add1()
+{
+	 ans=a-(-b);
+   System.out.println("ANS is " +ans);
+}
+}
+------------------------------------------------------------
+
+public class TestFirstAsm {
+
+	public static void main(String[] args) {
+		FirstAsm f=new FirstAsm();
+		{
+		f.add();
+		f.add1();
+		}
+	}
+
+}

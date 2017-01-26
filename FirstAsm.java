@@ -6,6 +6,20 @@ public class FirstAsm {
 	int c,d,e;
     int asc ;
     String ch;
+    
+  //Assignment 1.2
+    void display()
+    {
+    	  System.out.println("Assignment 1.2");
+    	b=(a--)-(--a);
+    	System.out.println("int b= a-- - --a output is - " +b);
+    	c=a--;
+    	System.out.println("int c=a-- output is - " +c);
+    	 d=a>>2;	
+    	System.out.println("int d=a>>2;output is   - "+d);
+    	 e=a&b;
+    	System.out.println("int e=a&b output is - " +e);
+    }
 
 //Assignment 1.1	
   void add(int a,int b)
@@ -23,19 +37,7 @@ void add1(int a,int b)
 	 ans=a-(-b);
    System.out.println("ANS is " +ans);
 }
-//Assignment 1.2
-void display()
-{
-	  System.out.println("Assignment 1.2");
-	b=(a--)-(--a);
-	System.out.println("int b= a-- - --a output is - " +b);
-	c=a--;
-	System.out.println("int c=a-- output is - " +c);
-	 d=a>>2;	
-	System.out.println("int d=a>>2;output is   - "+d);
-	 e=a&b;
-	System.out.println("int e=a&b output is - " +e);
-}
+
 //Assignment 1.3
 void swap(int x,int y)
 {
